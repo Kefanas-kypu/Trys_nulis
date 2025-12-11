@@ -82,30 +82,6 @@
 
 ---
 
-## Projekto struktūra
-
-projektas/
-├── src/
-│   ├── main.cpp
-│   ├── Studentas.cpp
-│   ├── Zmogus.cpp
-│   └── Funkcijos.cpp
-├── include/
-│   ├── Studentas.h
-│   ├── Zmogus.h
-│   ├── Funkcijos.h
-│   └── mediana.h
-├── Skaiciavimai/       
-├── tests/
-│   └── test_studentas.cpp
-├── docs/               
-├── images/              
-├── CMakeLists.txt
-├── Doxyfile
-├── setup.iss             
-└── README.md
-
-
 ## Programos paleidimas
 
 ### **1. Sukurkite build katalogą**
@@ -192,8 +168,8 @@ galBalas(Studentas::vidurkis)
 galBalas(Studentas::mediana)
 
 ### Studentų skirstymas į grupes  
-- ≥5 — kietiakiai
-- <5 — vargšiukai
+- ≥5 — *kietiakiai*
+- <5 — *vargšiukai*
 
 ### Failų generavimas  
 
@@ -201,9 +177,9 @@ generuotiFaila(nd_count, kiekis)
 
 Sugeneruojami failai:
 
+- studentai_1000.txt
 - studentai_10000.txt
 - studentai_100000.txt
-- studentai_1000000.txt
 - studentai_1000000.txt
 - studentai_10000000.txt
 
