@@ -82,6 +82,19 @@
 
 ---
 
+## Programos diegimas (Setup.exe)
+
+1. Atsisiųskite `Setup.exe` failą (pridėtas prie v3.0 GitHub release).
+2. Paleiskite diegiklį (reikalingos administratoriaus teisės).
+3. Patvirtinkite numatytą diegimo vietą:  
+   `C:\Program Files\VU\Kevinas-Kuznecovas`
+4. Paspauskite *Next* → *Install*.
+5. Po diegimo:
+   - programą rasite **Start meniu** skiltyje `VU → Kevinas-Kuznecovas`,
+   - darbalaukyje bus nuoroda **„Studentų rūšiavimo sistema“**.
+
+--- 
+
 ## Programos paleidimas
 
 ### **1. Sukurkite build katalogą**
