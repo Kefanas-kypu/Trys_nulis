@@ -122,6 +122,15 @@ Paleidus testavimus matome, kad visi parengti vienetų testai įvykdyti sėkming
 ir visi 5 patikrinimai davė teisingus rezultatus – pagrindinės funkcijos veikia taip,
 kaip tikimasi.
 
+## Diegimo programa (Inno Setup)
+
+Diegimo skriptas aprašytas faile `setup.iss`. Norint sugeneruoti diegimo .exe:
+
+1. Atidarykite `setup.iss` su **Inno Setup** programa.
+2. Paspauskite **Build → Compile**.
+3. Sugeneruotas diegimo failas (pvz. `StudentuRusiavimasSetup.exe`) bus sukurtas nurodytame kataloge.
+4. Vartotojas gali paleisti šį .exe ir įdiegti programą kaip įprastą Windows aplikaciją.
+
 ## Doxygen dokumentacija
 
 Sukurti dokumentaciją:
